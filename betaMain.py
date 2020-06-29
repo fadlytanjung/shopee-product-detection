@@ -193,5 +193,5 @@ def predictData(path):
     df.to_csv('output/result_beta.csv',index=False)
     return df
 
-dCNN(train_dataset='./dataBeta/train',test_dataset='./dataBeta/validation')
+dCNN(train_dataset='./data/train',test_dataset='./data/validation')
 predictData('test.csv')
